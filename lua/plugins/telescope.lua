@@ -1,5 +1,7 @@
 return {
   "nvim-telescope/telescope.nvim",
+  branch = "0.1.x",
+  dependencies = { "nvim-lua/plenary.nvim" },
   opts = {
     -- configure to use ripgrep
     vimgrep_arguments = {

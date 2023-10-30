@@ -50,4 +50,17 @@ require("lazy").setup({
       },
     },
   },
+  plugins = {
+    -- override/add custom plugins
+    -- { "tpope/vim-fugitive" },
+    -- { "tpope/vim-surround" },
+    -- { "tpope/vim-commentary" },
+    -- { "tpope/vim-repeat" },
+    -- { "tpope/vim-sleuth" },
+    {
+      "nvim-telescope/telescope.nvim",
+      branch = "0.1.x",
+      dependencies = { "nvim-lua/plenary.nvim" },
+    },
+  },
 })

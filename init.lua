@@ -1,4 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
-vim.cmd.colorscheme("catppuccin")
+-- Colorscheme
+vim.cmd.colorscheme("catppuccin-mocha")
+-- Blamer
+vim.g.blamer_enabled = true
