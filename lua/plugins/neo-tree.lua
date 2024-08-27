@@ -7,4 +7,13 @@ return {
     "MunifTanjim/nui.nvim",
   },
   enabled = true,
+  config = function()
+    require("neo-tree").setup({
+      sources = { "filesystem", "git_status", "buffers", "document_symbols" },
+      source_selector = {
+        winbar = true,
+        statusline = false,
+      },
+    })
+  end,
 }
