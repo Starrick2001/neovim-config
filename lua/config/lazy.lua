@@ -23,6 +23,7 @@ require("lazy").setup({
     --{ import = "lazyvim.plugins.extras.ui.dashboard" },
     -- { import = "lazyvim.plugins.extras.coding.codeium" },
     { import = "lazyvim.plugins.extras.coding.yanky" },
+    { import = "lazyvim.plugins.extras.lang.rust" },
     -- import/override with your plugins
     { import = "plugins" },
   },

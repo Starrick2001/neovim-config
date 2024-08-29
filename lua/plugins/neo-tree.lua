@@ -14,6 +14,12 @@ return {
         winbar = true,
         statusline = false,
       },
+      filesystem = {
+        follow_current_file = {
+          enabled = true,
+          leave_dirs_open = false,
+        },
+      },
     })
   end,
 }
